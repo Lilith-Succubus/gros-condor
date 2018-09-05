@@ -1,7 +1,7 @@
 // Initialisation
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const key = 'process.env.token';
+const key = process.env.token;
 
 // Fonctions utiles
 function randInt(max) {
