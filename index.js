@@ -10,7 +10,7 @@ function randInt(max) {
 
 // Commandes
 var commandes = ['!help', '!d + nombre'],
-    cpseudo = ['!Bernard', '!Tom', "!Simon", "Kévin"],
+    cpseudo = ['!Bernard', '!Tom', "!Simon", "!Kévin"],
     cinvis = ['!membres'];
 // commandes => Pour les commandes basiques ; cpseudo => Pour les commandes liées au pseudo ; cinvis => Pour les commandes qui n'apparaissent pas dans le !help
 var asw = {
