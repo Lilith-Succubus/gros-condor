@@ -10,14 +10,14 @@ function randInt(max) {
 
 // Commandes
 var commandes = ['!help', '!d + nombre'],
-    cpseudo = ['!Bernard', '!Lilith'],
+    cpseudo = ['!Bernard', '!Tom'],
     cinvis = ['!membres'];
 // commandes => Pour les commandes basiques ; cpseudo => Pour les commandes liées au pseudo ; cinvis => Pour les commandes qui n'apparaissent pas dans le !help
 var asw = {
 	help: ['**Commandes disponibles :**\n```' + commandes.join('\n') + '```\n_!membres_ pour plus de commandes'],
 	membres: ['**Commandes disponibles :**\n```' + cpseudo.join('\n') + '```\n_!help_ pour plus de commandes'],
 	Bernard: ['C\'est pas moi !'],
-	Lilith: ["Je suis aussi douée avec ma langue, on peut bien s'entendre", "Je suis très flexible sur les horaires (pas que sur les horaires )", "J'étais bourrée xD", "Tephalou love love <3", "Un PMV de qualité s'utilise chez Moulinot.", 'Là où je passe, les PMV trépassent']
+	Lilith: ["Toi tu es dans la catégorie 4", "Je suis Tom, le despote flamboyant", "Mouais", "On fait quoi ce WE ?", "^^"]
 };
 
 bot.on('message', function (msg) {
