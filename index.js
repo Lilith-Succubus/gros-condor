@@ -17,7 +17,7 @@ var asw = {
 	help: ['**Commandes disponibles :**\n```' + commandes.join('\n') + '```\n_!membres_ pour plus de commandes'],
 	membres: ['**Commandes disponibles :**\n```' + cpseudo.join('\n') + '```\n_!help_ pour plus de commandes'],
 	Bernard: ['C\'est pas moi !'],
-	Lilith: ["Toi tu es dans la catégorie 4", "Je suis Tom, le despote flamboyant", "Mouais", "On fait quoi ce WE ?", "^^"]
+	Tom: ["Toi tu es dans la catégorie 4", "Je suis Tom, le despote flamboyant", "Mouais", "On fait quoi ce WE ?", "^^"]
 };
 
 bot.on('message', function (msg) {
