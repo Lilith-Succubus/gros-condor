@@ -10,14 +10,15 @@ function randInt(max) {
 
 // Commandes
 var commandes = ['!help', '!d + nombre'],
-    cpseudo = ['!Bernard', '!Tom'],
+    cpseudo = ['!Bernard', '!Tom', "!Simon"],
     cinvis = ['!membres'];
 // commandes => Pour les commandes basiques ; cpseudo => Pour les commandes liées au pseudo ; cinvis => Pour les commandes qui n'apparaissent pas dans le !help
 var asw = {
 	help: ['**Commandes disponibles :**\n```' + commandes.join('\n') + '```\n_!membres_ pour plus de commandes'],
 	membres: ['**Commandes disponibles :**\n```' + cpseudo.join('\n') + '```\n_!help_ pour plus de commandes'],
 	Bernard: ['C\'est pas moi !'],
-	Tom: ["Toi tu es dans la catégorie 4", "Je suis Tom, le despote flamboyant", "Mouais", "On fait quoi ce WE ?", "^^"]
+	Tom: ["Toi, tu es dans la catégorie 4.", "Je suis Tom, le despote flamboyant", "Mouais", "On fait quoi ce WE ?", "^^"],
+	Simon : ["Sans Léa, rien ne va", "Allez salut je me casse en RDH", "Je pratique la MMA depuis maintenant 6 ans, de la boxe en parallèle depuis 7 ans, ainsi que la musculation depuis 4 ans. 1m87 pour 86kg. Je peux battre un gorille à mains nues.", "Notre fierté, la difformité"]
 };
 
 bot.on('message', function (msg) {
