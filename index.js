@@ -20,7 +20,6 @@ var asw = {
 	Tom: ["Toi, tu es dans la catégorie 4.", "Je suis Tom, le despote flamboyant", "Mouais", "On fait quoi ce WE ?", "^^"],
 	Simon: ["Sans Léa, rien ne va", "Allez salut je me casse en RDH", "Je pratique la MMA depuis maintenant 6 ans, de la boxe en parallèle depuis 7 ans, ainsi que la musculation depuis 4 ans. 1m87 pour 86kg. Je peux battre un gorille à mains nues.", "Notre fierté, la difformité"],
 	Kévin: ["Je swap entre GrosPigeon et GrasPigeon pour masquer mon identité", "Putain faut que j'aille sur bestgore pour me nettoyer les yeux", "pdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpd", "TG"],
-	Hakim: ["T\'inquiètes je gère", "Mon modèle c'est El Pueblo"]
 };
 
 bot.on('message', function (msg) {
